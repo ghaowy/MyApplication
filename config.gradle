@@ -1,0 +1,14 @@
+ext {
+    versions = [
+            compileSdkVersion : 28,
+            minSdkVersion : 15,
+            targetSdkVersion : 28,
+            versionCode : 1000000,
+            versionName : "1.0.0.0"
+    ]
+
+    dependencies = [
+            "Design"                : 'com.android.support:design:27.1.1',
+            "EventBus"              : 'org.greenrobot:eventbus:3.0.0',
+    ]
+}
